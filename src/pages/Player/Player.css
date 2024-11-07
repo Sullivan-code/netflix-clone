@@ -1,0 +1,23 @@
+.player{
+    height: 100vh; /*2 HOURS AND 1 MIN AND 26 SECONDS*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.player img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    cursor: pointer;
+}
+.player iframe{
+    border-radius: 10px;
+}
+.player-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* 2 HOURS AND 13 MINUTES */
+    width: 90%;
+}

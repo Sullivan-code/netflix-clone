@@ -1,5 +1,5 @@
 .player{
-    height: 100vh; /*2 HOURS AND 1 MIN AND 26 SECONDS*/
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,6 +18,6 @@
 .player-info{
     display: flex;
     align-items: center;
-    justify-content: space-between; /* 2 HOURS AND 13 MINUTES */
+    justify-content: space-between; 
     width: 90%;
 }

@@ -12,17 +12,17 @@ const App = () => {
 
   const navigate = useNavigate();
 
-  useEffect(()=>{
-    onAuthStateChanged(auth, async (user)=>{
-      if(user){
+  useEffect(() => {
+    onAuthStateChanged(auth, async (user) => {
+      if (user) {
         console.log("Logged In");
-        navigate('/');
-      }else{
+        navigate('/', { replace: true }); // Substitui a página atual pela home
+      } else {
         console.log("Logged Out");
-        navigate('/login');
+        navigate('/login', { replace: true }); // Substitui a página atual pela página de login
       }
-    })
-  },[])
+    });
+  }, []);
 
   return (
     <div>
